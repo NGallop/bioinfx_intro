@@ -133,7 +133,7 @@ There's lots more you can do with git, but these are some of the basic concepts 
 #### Python
 You're now ready to code, this part is up to you. Do it however you want to.
 
-The sequencing data provided contains colorectal panel sequencing data. We only want sequencing data for Lynch Syndrome - that should be 4 or 5 genes.
+The sequencing data provided in the data/ dir contains colorectal panel sequencing data. We only want sequencing data for Lynch Syndrome - that should be 4 or 5 genes.
 
 To get the genes and the genomic regions for these genes, please use the PanelApp API: https://panelapp.genomicsengland.co.uk/api/docs/
 
@@ -142,6 +142,8 @@ You can use the requests package installed earlier to interact with APIs.
 You can use the R number from the National Genomic Test Directory: https://www.england.nhs.uk/publication/national-genomic-test-directories/
 
 Once you have the genomic locations from the PanelApp API, you can use them to create a BED file.
+
+Try to do all of this programmatically, so that were I to request a different panel you could execute this code with a different R number and make a different BED file.
 
 #### Test your output
 If you've successfully created a BED file, you can test it by filtering the colorectal VCF file.
