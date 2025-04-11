@@ -1,6 +1,6 @@
 # Bioinformatics Introduction
 ## Introduction
-This repository is desinged to introduce you to many of the basic concepts involved in typical Clinical Bioinformatics project. The topics covered in this repository will include:
+This repository is designed to introduce you to many of the basic concepts involved in typical Clinical Bioinformatics project. The topics covered in this repository will include:
  - Git version control
  - Conda environments for managing tools used
  - Python programming
@@ -9,12 +9,13 @@ This repository is desinged to introduce you to many of the basic concepts invol
 
  This README file is designed to guide you through some of the basic concepts, but it will be up to you to actually create the code to perform the desired task. This is not designed to be a python tutorial, you will be expected to develop this understanding yourself and apply what you learn about python to this project.
 
- Anything you already know, you can skip through. Good luck!
+ Anything you already know, you can skip through. Have fun!
 
  ## Project
  The aim of this project is for you to create and apply region filtering to a sequencing file.
 
  The file you are given is a VCF file that has been sequenced to investigate Lynch Syndrome. You will need to create a BED file specifying the genomic regions of the genes that are relevant to this condition.
+
 
  ## Background
 
@@ -54,10 +55,11 @@ This is broken down into three main steps:
 
 ### Installation
 First, we need to install the project directory. Fork this repository on GitHub, and navigate to it.
+Top of the page > Fork > Create a new fork. Set yourself as the owner.
 
 Second, above this README, there is a large green button labelled ```<> Code```. Click this and copy the HTTPS URL.
   
-At your terminal, navigate to a directory you're hapy for this repository to be stored in. Then run:
+At your terminal, navigate to a directory you're happy for this repository to be stored in. Then run:
 
 ```
 git clone [YOUR_FORKED_REPO_URL]
